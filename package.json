@@ -1,0 +1,29 @@
+{
+  "name": "distributed-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "node ./build/index.js client",
+    "start:client:b": "node ./build/index.js client_b",
+    "start:client:check_status": "node ./build/index.js check_status",
+    "start:server": "node ./build/index.js server",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "grenache-nodejs-http": "^0.7.13",
+    "grenache-nodejs-link": "^1.0.0",
+    "grenache-nodejs-ws": "^0.7.10",
+    "uuid": "^9.0.1"
+  }
+}
