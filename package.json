@@ -9,7 +9,7 @@
     "start:client:check_status": "node ./build/index.js check_status",
     "start:server": "node ./build/index.js server",
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified yet.\""
   },
   "keywords": [],
   "author": "",
